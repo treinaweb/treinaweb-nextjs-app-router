@@ -1,4 +1,5 @@
 export default function SobreNos() {
+
   return (
     <div style={{textAlign: 'center', padding: '20px'}}>
       <h1>Sobre a Treina Web</h1><br />
