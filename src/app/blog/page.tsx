@@ -8,7 +8,7 @@ export default async function BlogHome() {
     { id: '3', title: "Terceiro Post Dinamico", slug: 'terceiro-post-dinamico'},
   ]
 
-  await new Promise(resolve => setTimeout(resolve, 5000));
+  /* await new Promise(resolve => setTimeout(resolve, 5000)); */
 
   return (
     <div>

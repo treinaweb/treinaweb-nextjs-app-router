@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BlogPost({ params }: { params: { slug: string} }) {
   const posts = [
     { slug: 'primeiro-post-dinamico', title: "Primeiro Post Dinamico", content: 'Lorem 1 ipsum Lorem Loremdolor sit amet' },
@@ -16,6 +18,7 @@ export default function BlogPost({ params }: { params: { slug: string} }) {
       <h1>{post?.title}</h1>
       <br />
       <p>{post?.content}</p>
+      <Link href='../blog'>Voltar</Link>
     </div>
   )
 }
